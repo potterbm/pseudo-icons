@@ -138,7 +138,7 @@
 	height: 42.426%;
 	width: 42.426%;
 	
-	top: 28.787%;
+	top: 33.787%; /* 28.787 + 5 */
 	left: 28.787%;
 	transform: rotateZ(-45deg);
 }
@@ -154,7 +154,7 @@
 	height: 30%;
 	width: 40%;
 	
-	top: 40%;
+	top: 45%;
 	left: 30%;
 }
 
