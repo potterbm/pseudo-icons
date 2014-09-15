@@ -124,6 +124,41 @@
 
 
 
+/* Home */
+
+.ps.ps-home:before {
+	background-color: transparent;
+	border-style: solid;
+	border-top-width: .02em;
+	border-right-width: .02em;
+	
+	content: "";
+	
+	height: 42.426%;
+	width: 42.426%;
+	
+	top: 20%;
+	left: 20%;
+}
+
+.ps.ps-home:after {
+	background-color: transparent;
+	border-style: solid;
+	border-width: 0.2em;
+	border-top-width: 0;
+	
+	content: "";
+	
+	height: 30%;
+	width: 40%;
+	
+	top: 40%;
+	left: 30%;
+}
+
+
+
+
 /* Page */
 
 .ps.ps-page:before {
