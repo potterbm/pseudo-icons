@@ -269,7 +269,9 @@
 
 /* Arrow top */
 
-.ps.ps-arrow-top:before {
+.ps.ps-arrow-top:before,
+.ps.ps-arrow-up:before
+{
 	content: "";
 	
 	height: 60%;
@@ -279,7 +281,9 @@
 	left: 49%;
 }
 
-.ps.ps-arrow-top:after {
+.ps.ps-arrow-top:after,
+.ps.ps-arrow-up:after
+{
 	background-color: transparent;
 	border-style: solid;
 	border-width: 0;
@@ -336,7 +340,9 @@
 
 /* Arrow bottom */
 
-.ps.ps-arrow-bottom:before {
+.ps.ps-arrow-bottom:before,
+.ps.ps-arrow-down:before
+{
 	content: "";
 	
 	height: 60%;
@@ -346,7 +352,9 @@
 	left: 49%;
 }
 
-.ps.ps-arrow-bottom:after {
+.ps.ps-arrow-bottom:after,
+.ps.ps-arrow-down:after
+{
 	background-color: transparent;
 	border-style: solid;
 	border-width: 0;
