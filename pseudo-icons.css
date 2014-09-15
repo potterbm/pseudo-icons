@@ -140,6 +140,7 @@
 	
 	top: 33.787%; /* 28.787 + 5 */
 	left: 28.787%;
+	
 	transform: rotateZ(-45deg);
 }
 
@@ -156,6 +157,78 @@
 	
 	top: 45%;
 	left: 30%;
+}
+
+
+
+/* User */
+
+.ps.ps-user:before,
+.ps.ps-person:before
+{
+	border-radius: .5em;
+	
+	content: "";
+	
+	height: 25%;
+	width: 25%;
+	
+	top: 20%;
+	left: 37.5%;
+}
+
+.ps.ps-user:after,
+.ps.ps-person:after
+{
+	border-top-left-radius: .25em;
+	border-top-right-radius: .25em;
+	
+	content: "";
+	
+	height: 30%;
+	width: 50%;
+	
+	top: 50%;
+	left: 25%;
+}
+
+
+
+/* User (outline) */
+
+.ps.ps-user-outline:before,
+.ps.ps-person-outline:before
+{
+	background-color: transparent;
+	border-style: solid;
+	border-width: .02em;
+	border-radius: .5em;
+	
+	content: "";
+	
+	height: 25%;
+	width: 25%;
+	
+	top: 20%;
+	left: 37.5%;
+}
+
+.ps.ps-user-outline:after,
+.ps.ps-person-outline:after
+{
+	background-color: transparent;
+	border-style: solid;
+	border-width: .02em;
+	border-top-left-radius: .25em;
+	border-top-right-radius: .25em;
+	
+	content: "";
+	
+	height: 30%;
+	width: 50%;
+	
+	top: 50%;
+	left: 25%;
 }
 
 
