@@ -146,7 +146,7 @@
 .ps.ps-home:after {
 	background-color: transparent;
 	border-style: solid;
-	border-width: 0.2em;
+	border-width: 0.02em;
 	border-top-width: 0em;
 	
 	content: "";
