@@ -140,6 +140,7 @@
 	
 	top: 33.787%; /* 28.787 + 5 */
 	left: 28.787%;
+	
 	transform: rotateZ(-45deg);
 }
 
@@ -156,6 +157,39 @@
 	
 	top: 45%;
 	left: 30%;
+}
+
+
+
+/* User */
+
+.ps.ps-user:before,
+.ps.ps-person:before
+{
+	border-radius: 50%;
+	
+	content: "";
+	
+	height: 20%;
+	width: 20%;
+	
+	top: 20%;
+	left: 40%;
+}
+
+.ps.ps-user:after,
+.ps.ps-person:after
+{
+	border-top-left-radius: 50%;
+	border-top-right-radius: 50%;
+	
+	content: "";
+	
+	height: 30%;
+	width: 50%;
+	
+	top: 50%;
+	left: 25%;
 }
 
 
