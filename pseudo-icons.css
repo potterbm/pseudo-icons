@@ -190,17 +190,17 @@
 .ps.ps-settings:after
 {
 	background-color: transparent !important;
-	border-style: solid;
+	border-style: dashed;
 	border-width: .02em;
 	border-radius: .5em;
 	
 	content: "";
 	
-	height: 30%;
-	width: 30%;
+	height: 35%;
+	width: 35%;
 	
-	top: 55%;
-	left: 55%;
+	top: 20%;
+	left: 50%;
 }
 
 
