@@ -179,10 +179,10 @@
 	height: 60%;
 	width: 60%;
 	
-	top: 15%;
+	top: 25%;
 	left: 15%;
 	
-	transform: rotateZ(45deg);
+	transform: rotateZ(-45deg);
 }
 
 .ps.ps-gear:after,
@@ -199,7 +199,7 @@
 	height: 35%;
 	width: 35%;
 	
-	top: 20%;
+	top: 15%;
 	left: 50%;
 }
 
