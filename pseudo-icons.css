@@ -200,6 +200,39 @@
 	left: 23%;
 }
 
+.ps.ps-gear-lines:before {
+	background-color: transparent !important;
+	border-style: solid;
+	border-width: .02em;
+	border-right-color: transparent !important;
+	border-radius: .5em;
+	
+	content: "";
+	
+	height: 60%;
+	width: 60%;
+	
+	top: 15%;
+	left: 15%;
+	
+	transform: rotateZ(45deg);
+}
+
+.ps.ps-gear-lines:after {
+	background-color: transparent !important;
+	border-style: solid;
+	border-width: .02em;
+	border-radius: .5em;
+	
+	content: "";
+	
+	height: 35%;
+	width: 35%;
+	
+	top: 50%;
+	left: 50%;
+}
+
 
 
 
