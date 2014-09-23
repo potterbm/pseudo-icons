@@ -114,6 +114,26 @@
 	transition: transform 0.4s cubic-bezier(1, 1.75, 0.35, 0.75) 0.4s, height 0.3s ease-in-out;
 }
 
+.ps.hidden.ps-animate.ps-close:before,
+.ps.hidden.ps-animate.ps-remove:before,
+.ps.hidden.ps-animate.ps-times:before,
+.hidden .ps.ps-animate.ps-close:before,
+.hidden .ps.ps-animate.ps-remove:before,
+.hidden .ps.ps-animate.ps-times:before
+{
+	transition: transform 0.5s cubic-bezier(1, 1.75, 0.35, 0.75), height 0.3s ease-in-out 0.4s;
+}
+
+.ps.hidden.ps-animate.ps-close:after,
+.ps.hidden.ps-animate.ps-remove:after,
+.ps.hidden.ps-animate.ps-times:after,
+.hidden .ps.ps-animate.ps-close:after,
+.hidden .ps.ps-animate.ps-remove:after,
+.hidden .ps.ps-animate.ps-times:after
+{
+	transition: transform 0.4s cubic-bezier(1, 1.75, 0.35, 0.75), height 0.3s ease-in-out 0.4s;
+}
+
 
 
 /* Add/Plus */
