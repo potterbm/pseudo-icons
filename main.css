@@ -13,6 +13,8 @@ body {
 
 .ps {
 	background-color: #ffffff;
+	
+	cursor: pointer;
 }
 
 .ps:before,
