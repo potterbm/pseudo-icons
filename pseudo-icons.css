@@ -332,7 +332,7 @@
 .ps.ps-animate.ps-cog:after,
 .ps.ps-animate.ps-settings:after
 {
-	transition: border-width 0.3s ease-in-out 0.4s, transform 0.5s cubic-bezier(0.75, 0, 0.95, 0.75) 0.8;
+	transition: border-width 0.3s ease-in-out 0.4s, transform 0.5s cubic-bezier(0.75, 0, 0.95, 0.75) 0.8s;
 }
 
 
