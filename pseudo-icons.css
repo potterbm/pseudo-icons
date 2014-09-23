@@ -772,6 +772,26 @@
 	background-color: transparent !important;
 }
 
+.ps.hidden.ps-circle:before,
+.ps.hidden.ps-circle-full:before,
+.ps.hidden.ps-circle-outline:before,
+.ps.hidden.ps-circle-empty:before,
+.hidden .ps.ps-circle:before,
+.hidden .ps.ps-circle-full:before,
+.hidden .ps.ps-circle-outline:before,
+.hidden .ps.ps-circle-empty:before
+{
+	transform: scale(0);
+}
+
+.ps.ps-animate.ps-circle:before,
+.ps.ps-animate.ps-circle-full:before,
+.ps.ps-animate.ps-circle-outline:before,
+.ps.ps-animate.ps-circle-empty:before
+{
+	transition: transform 0.4s cubic-bezier(0, 1.4, 1, 1.4);
+}
+
 
 
 
@@ -799,6 +819,26 @@
 .ps.ps-bullet-empty:before
 {
 	background-color: transparent !important;
+}
+
+.ps.hidden.ps-bullet:before,
+.ps.hidden.ps-bullet-full:before,
+.ps.hidden.ps-bullet-outline:before,
+.ps.hidden.ps-bullet-empty:before,
+.hidden .ps.ps-bullet:before,
+.hidden .ps.ps-bullet-full:before,
+.hidden .ps.ps-bullet-outline:before,
+.hidden .ps.ps-bullet-empty:before
+{
+	transform: scale(0);
+}
+
+.ps.ps-animate.ps-bullet:before,
+.ps.ps-animate.ps-bullet-full:before,
+.ps.ps-animate.ps-bullet-outline:before,
+.ps.ps-animate.ps-bullet-empty:before
+{
+	transition: transform 0.4s cubic-bezier(0, 1.4, 1, 1.4);
 }
 
 
