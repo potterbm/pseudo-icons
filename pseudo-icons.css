@@ -237,6 +237,27 @@
 	left: 30%;
 }
 
+.ps.hidden.ps-home:before,
+.hidden .ps.ps-home:before
+{
+	transform: scale(0);
+}
+
+.ps.hidden.ps-home:after,
+.hidden .ps.ps-home:after
+{
+	border-width: 0;
+	height: 0;
+}
+
+.ps.ps-animate.ps-home:before {
+	transition: transform 0.4s cubic-bezier(0, 1.4, 1, 1.4);
+}
+
+.ps.ps-animate.ps-home:after {
+	transition: border-width 0.2s ease-in-out 0.4s, height 0.5s cubic-bezier(1, 1.75, 0.05, 0.6) 0.4s;
+}
+
 
 
 
