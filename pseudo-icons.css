@@ -938,6 +938,38 @@
 	left: 49%;
 }
 
+.ps.hidden.ps-female:before,
+.hidden .ps.ps-female:before
+{
+	transform: scale(0);
+}
+
+.ps.hidden.ps-female:after,
+.hidden .ps.ps-female:after
+{
+	height: 0;
+}
+
+.ps.ps-animate.ps-female:before {
+	transition: transform 0.5s cubic-bezier(0, 1.4, 1, 1.4);
+}
+
+.ps.ps-animate.ps-female:after {
+	transition: height 0.4s ease-in-out 0.5s;
+}
+
+.ps.hidden.ps-animate.ps-female:before,
+.hidden .ps.ps-animate.ps-female:before
+{
+	transition: transform 0.5s cubic-bezier(0, 1.4, 1, 1.4) 0.4s;
+}
+
+.ps.hidden.ps-animate.ps-female:after,
+.hidden .ps.ps-animate.ps-female:after
+{
+	transition: height 0.4s ease-in-out;
+}
+
 
 
 
