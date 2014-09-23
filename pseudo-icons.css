@@ -344,7 +344,25 @@
 	transform-origin: 0em 0em;
 }
 
+.ps.hidden.ps-search:before,
+.hidden .ps.ps-search:before
+{
+	transform: scale(0);
+}
 
+.ps.hidden.ps-search:after,
+.hidden .ps.ps-search:after
+{
+	width: 0;
+}
+
+.ps.ps-animate.ps-search:before {
+	transition: transform 0.5s cubic-bezier(0, 1.4, 1, 1.4);
+}
+
+.ps.ps-animate.ps-search:after {
+	transition: width 0.3s ease-in-out 0.5s;
+}
 
 
 /* User */
