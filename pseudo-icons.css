@@ -317,7 +317,8 @@
 .hidden .ps.ps-cog:after,
 .hidden .ps.ps-settings:after
 {
-	transform: scale(0);
+	border-width: 0;
+	transform: rotateZ(-360deg);
 }
 
 .ps.ps-animate.ps-gear:before,
@@ -331,7 +332,7 @@
 .ps.ps-animate.ps-cog:after,
 .ps.ps-animate.ps-settings:after
 {
-	transition: transform 0.5s cubic-bezier(0, 1.4, 1, 1.4);
+	transition: border-width 0.3s ease-in-out 0.4s, transform 0.5s cubic-bezier(0.75, 0, 0.95, 0.75) 0.8;
 }
 
 
