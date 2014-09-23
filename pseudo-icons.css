@@ -212,24 +212,24 @@
 	
 	content: "";
 	
-	height: 20%;
-	width: 20%;
+	height: 40%;
+	width: 40%;
 	
-	top: 30%;
-	left: 30%;
+	top: 15%;
+	left: 15%;
 }
 
 .ps.ps-search:after {
-	
 	content: "";
 	
 	height: 2%;
 	width: 50%;
 	
-	top: 60%;
-	left: 60%;
+	top: 49.14%; /* 15 + (40 / 2) + 14.14 */
+	left: 49.14%; /* 15 + (40 / 2) + 14.14 */
 	
 	transform: rotateZ(45deg);
+	transform-origin: 0em 0em;
 }
 
 
