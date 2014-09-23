@@ -216,10 +216,11 @@
 	height: 42.426%;
 	width: 42.426%;
 	
-	top: 33.787%; /* 28.787 + 5 */
-	left: 28.787%;
+	top: 20%; /* 28.787 + 5 */
+	left: 50%;
 	
-	transform: rotateZ(-45deg);
+	transform: rotateZ(45deg);
+	transform-origin: 0em 0em;
 }
 
 .ps.ps-home:after {
@@ -247,7 +248,6 @@
 .ps.hidden.ps-home:after,
 .hidden .ps.ps-home:after
 {
-	border-width: 0;
 	height: 0;
 }
 
@@ -318,7 +318,6 @@
 .hidden .ps.ps-settings:after
 {
 	border-width: 0;
-	
 }
 
 .ps.ps-animate.ps-gear:before,
