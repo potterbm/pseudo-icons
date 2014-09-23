@@ -194,6 +194,22 @@
 	transition: transform 0.4s cubic-bezier(1, 1.75, 0.35, 0.75) 0.4s, height 0.3s ease-in-out;
 }
 
+.ps.hidden.ps-animate.ps-add:before,
+.ps.hidden.ps-animate.ps-plus:before,
+.hidden .ps.ps-animate.ps-add:before,
+.hidden .ps.ps-animate.ps-plus:before
+{
+	transition: transform 0.5s cubic-bezier(1, 1.75, 0.35, 0.75), height 0.3s ease-in-out 0.4s;
+}
+
+.ps.hidden.ps-animate.ps-add:after,
+.ps.hidden.ps-animate.ps-plus:after,
+.hidden .ps.ps-animate.ps-add:after,
+.hidden .ps.ps-animate.ps-plus:after
+{
+	transition: transform 0.4s cubic-bezier(1, 1.75, 0.35, 0.75), height 0.3s ease-in-out 0.4s;
+}
+
 
 
 /* Accept/Check */
@@ -261,8 +277,7 @@
 .ps.hidden.ps-home:before,
 .hidden .ps.ps-home:before
 {
-	height: 0;
-	width: 0;
+	transform: rotateZ(45deg) scale(0);
 }
 
 .ps.hidden.ps-home:after,
@@ -272,7 +287,7 @@
 }
 
 .ps.ps-animate.ps-home:before {
-	transition: height 0.4s cubic-bezier(0, 1.4, 1, 1.4), width 0.4s cubic-bezier(0, 1.4, 1, 1.4);
+	transition: transform 0.4s cubic-bezier(0, 1.4, 1, 1.4);
 }
 
 .ps.ps-animate.ps-home:after {
