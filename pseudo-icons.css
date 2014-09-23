@@ -278,6 +278,40 @@
 	left: 21%;
 }
 
+.ps.hidden.ps-gear:before,
+.ps.hidden.ps-cog:before,
+.ps.hidden.ps-settings:before,
+.hidden .ps.ps-gear:before,
+.hidden .ps.ps-cog:before,
+.hidden .ps.ps-settings:before
+{
+	transform: scale(0);
+}
+
+.ps.hidden.ps-gear:after,
+.ps.hidden.ps-cog:after,
+.ps.hidden.ps-settings:after,
+.hidden .ps.ps-gear:after,
+.hidden .ps.ps-cog:after,
+.hidden .ps.ps-settings:after
+{
+	transform: scale(0);
+}
+
+.ps.ps-animate.ps-gear:before,
+.ps.ps-animate.ps-cog:before,
+.ps.ps-animate.ps-settings:before
+{
+	transition: transform 0.5s cubic-bezier(0, 1.4, 1, 1.4);
+}
+
+.ps.ps-animate.ps-gear:after,
+.ps.ps-animate.ps-cog:after,
+.ps.ps-animate.ps-settings:after
+{
+	transition: transform 0.5s cubic-bezier(0, 1.4, 1, 1.4);
+}
+
 
 
 /* Search */
