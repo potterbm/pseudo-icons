@@ -318,7 +318,7 @@
 .hidden .ps.ps-settings:after
 {
 	border-width: 0;
-	transform: rotateZ(-360deg);
+	transform: rotateZ(-180deg);
 }
 
 .ps.ps-animate.ps-gear:before,
