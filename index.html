@@ -114,12 +114,13 @@
 		</ul>
 	</section>
 	
+	
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
 	<script type="text/javascript">
-		window.onload = function() {
-			window.setTimeout(function() {
-				document.getElementById("list").className = "";
-			}, 500);
-		}
+		$(window).load(function(e) {
+			$("#list").offset();
+			$("#list").removeClass("hidden");
+		});
 	</script>
 	
 </body>
