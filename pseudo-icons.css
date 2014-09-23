@@ -1,5 +1,15 @@
 
 
+/* Animation timing functions:
+* 
+* Effect - function
+* Pop - cubic-bezier(0, 1.4, 1, 1.4)
+* Bounce - cubic-bezier(1, 1.75, 0.35, 0.75)
+* Hit a wall - cubic-bezier(1, 1.75, 0.05, 0.6)
+* Intense ease-in - cubic-bezier(0.75, 0, 0.95, 0.75)
+* 
+*/
+
 .ps {
 	font-size: 1em;
 	line-height: 1;
@@ -24,6 +34,8 @@
 .ps:before,
 .ps:after
 {
+	border: none;
+	
 	font-size: 1em;
 	
 	box-sizing: border-box;
@@ -64,6 +76,42 @@
 	left: 25%;
 	
 	transform: rotateZ(-45deg);
+}
+
+.ps.hidden.ps-close:before,
+.ps.hidden.ps-remove:before,
+.ps.hidden.ps-times:before,
+.hidden .ps.ps-close:before,
+.hidden .ps.ps-remove:before,
+.hidden .ps.ps-times:before
+{
+	height: 0;
+	transform: rotateZ(-360deg);
+}
+
+.ps.hidden.ps-close:after,
+.ps.hidden.ps-remove:after,
+.ps.hidden.ps-times:after,
+.hidden .ps.ps-close:after,
+.hidden .ps.ps-remove:after,
+.hidden .ps.ps-times:after
+{
+	height: 0;
+	transform: rotateZ(-360deg);
+}
+
+.ps.ps-animate.ps-close:before,
+.ps.ps-animate.ps-remove:before,
+.ps.ps-animate.ps-times:before
+{
+	transition: transform 0.4s cubic-bezier(1, 1.75, 0.05, 0.6) 0.4s, height 0.4s ease-in-out;
+}
+
+.ps.ps-animate.ps-close:after,
+.ps.ps-animate.ps-remove:after,
+.ps.ps-animate.ps-times:after
+{
+	transition: transform 0.4s cubic-bezier(1, 1.75, 0.05, 0.6) 0.4s, height 0.4s ease-in-out;
 }
 
 

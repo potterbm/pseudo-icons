@@ -22,7 +22,7 @@
 	</header>
 	
 	<section class="container">
-		<ul>
+		<ul id="list" class="hidden">
 			<li>
 				<h2 class="icon-title">Close/Remove</h2>
 				<span class="ps ps-close"></span>
@@ -113,6 +113,12 @@
 			</li>
 		</ul>
 	</section>
+	
+	<script type="text/javascript">
+		window.onLoad = function() {
+			document.getElementById("list").className = ""
+		}
+	</script>
 	
 </body>
 </html>
