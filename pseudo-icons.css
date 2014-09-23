@@ -278,6 +278,8 @@
 {
 	height: 0;
 	width: 0;
+	
+	opacity: 0;
 }
 
 .ps.hidden.ps-home:after,
@@ -288,7 +290,7 @@
 }
 
 .ps.ps-animate.ps-home:before {
-	transition: width 0.3s ease-in, height 0.3s ease-out 0.3s;
+	transition: opacity 0.05s ease-in-out, width 0.3s ease-in, height 0.3s ease-out 0.3s;
 }
 
 .ps.ps-animate.ps-home:after {
