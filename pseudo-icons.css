@@ -240,7 +240,8 @@
 .ps.hidden.ps-home:before,
 .hidden .ps.ps-home:before
 {
-	transform: scale(0);
+	height: 0;
+	width: 0;
 }
 
 .ps.hidden.ps-home:after,
@@ -251,7 +252,7 @@
 }
 
 .ps.ps-animate.ps-home:before {
-	transition: transform 0.4s cubic-bezier(0, 1.4, 1, 1.4);
+	transition: height 0.4s cubic-bezier(0, 1.4, 1, 1.4), width 0.4s cubic-bezier(0, 1.4, 1, 1.4);
 }
 
 .ps.ps-animate.ps-home:after {
