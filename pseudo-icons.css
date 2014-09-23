@@ -252,11 +252,10 @@
 	height: 42.426%;
 	width: 42.426%;
 	
-	top: 20%; /* 28.787 + 5 */
-	left: 50%;
+	top: 33.787%; /* 28.787 + 5 */
+	left: 28.787%;
 	
-	transform: rotateZ(45deg);
-	transform-origin: 0em 0em;
+	transform: rotateZ(-45deg);
 }
 
 .ps.ps-home:after {
@@ -270,28 +269,30 @@
 	height: 30%;
 	width: 40%;
 	
-	top: 40%;
+	top: 45%;
 	left: 30%;
 }
 
 .ps.hidden.ps-home:before,
 .hidden .ps.ps-home:before
 {
-	transform: rotateZ(45deg) scale(0);
+	height: 0;
+	width: 0;
 }
 
 .ps.hidden.ps-home:after,
 .hidden .ps.ps-home:after
 {
+	border-width: 0;
 	height: 0;
 }
 
 .ps.ps-animate.ps-home:before {
-	transition: transform 0.4s cubic-bezier(0, 1.4, 1, 1.4);
+	transition: width 0.3s ease-in, height 0.3s ease-out 0.3s;
 }
 
 .ps.ps-animate.ps-home:after {
-	transition: border-width 0.2s ease-in-out 0.4s, height 0.5s cubic-bezier(1, 1.75, 0.05, 0.6) 0.4s;
+	transition: border-width 0.2s ease-in-out 0.6s, height 0.5s cubic-bezier(1, 1.75, 0.05, 0.6) 0.6s;
 }
 
 
