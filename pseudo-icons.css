@@ -384,6 +384,26 @@
 	transition: border-width 1s ease-in-out 0.4s, transform 0.5s cubic-bezier(0.75, 0, 0.95, 0.75) 0.8s;
 }
 
+.ps.hidden.ps-animate.ps-gear:before,
+.ps.hidden.ps-animate.ps-cog:before,
+.ps.hidden.ps-animate.ps-settings:before,
+.hidden .ps.ps-animate.ps-gear:before,
+.hidden .ps.ps-animate.ps-cog:before,
+.hidden .ps.ps-animate.ps-settings:before
+{
+	transition: transform 0.5s cubic-bezier(0, 1.4, 1, 1.4) 0.9s;
+}
+
+.ps.hidden.ps-animate.ps-gear:after,
+.ps.hidden.ps-animate.ps-cog:after,
+.ps.hidden.ps-animate.ps-settings:after,
+.hidden .ps.ps-animate.ps-gear:after,
+.hidden .ps.ps-animate.ps-cog:after,
+.hidden .ps.ps-animate.ps-settings:after
+{
+	transition: border-width 1s ease-in-out 0.4s, transform 0.5s cubic-bezier(0.75, 0, 0.95, 0.75);
+}
+
 
 
 /* Search */
