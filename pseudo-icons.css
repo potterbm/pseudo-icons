@@ -789,7 +789,7 @@
 .ps.ps-animate.ps-circle-outline:before,
 .ps.ps-animate.ps-circle-empty:before
 {
-	transition: transform 0.4s cubic-bezier(0, 1.4, 1, 1.4);
+	transition: transform 0.5s cubic-bezier(0, 1.4, 1, 1.4);
 }
 
 
@@ -838,7 +838,7 @@
 .ps.ps-animate.ps-bullet-outline:before,
 .ps.ps-animate.ps-bullet-empty:before
 {
-	transition: transform 0.4s cubic-bezier(0, 1.4, 1, 1.4);
+	transition: transform 0.5s cubic-bezier(0, 1.4, 1, 1.4);
 }
 
 
@@ -873,6 +873,38 @@
 	
 	transform-origin: 0 0;
 	transform: rotateZ(-45deg);
+}
+
+.ps.hidden.ps-male:before,
+.hidden .ps.ps-male:before
+{
+	transform: scale(0);
+}
+
+.ps.hidden.ps-male:after,
+.hidden .ps.ps-male:after
+{
+	width: 0;
+}
+
+.ps.ps-animate.ps-male:before {
+	transition: transform 0.5s cubic-bezier(0, 1.4, 1, 1.4);
+}
+
+.ps.ps-animate.ps-male:after {
+	transition: width 0.4s ease-in-out 0.5s;
+}
+
+.ps.hidden.ps-animate.ps-male:before,
+.hidden .ps.ps-animate.ps-male:before
+{
+	transition: transform 0.5s cubic-bezier(0, 1.4, 1, 1.4) 0.4s;
+}
+
+.ps.hidden.ps-animate.ps-male:after,
+.hidden .ps.ps-animate.ps-male:after
+{
+	transition: width 0.4s ease-in-out;
 }
 
 
