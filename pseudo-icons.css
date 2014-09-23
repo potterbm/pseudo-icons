@@ -1007,3 +1007,47 @@
 	top: 53%;
 	left: 49%;
 }
+
+.ps.hidden.ps-help:before,
+.ps.hidden.ps-question:before,
+.hidden .ps.ps-help:before,
+.hidden .ps.ps-question:before
+{
+	transform: scale(0);
+}
+
+.ps.hidden.ps-help:after,
+.ps.hidden.ps-question:after,
+.hidden .ps.ps-help:after,
+.hidden .ps.ps-question:after
+{
+	height: 0;
+}
+
+.ps.ps-animate.ps-help:before,
+.ps.ps-animate.ps-question:before
+{
+	transition: transform 0.5s cubic-bezier(0, 1.4, 1, 1.4);
+}
+
+.ps.ps-animate.ps-help:after,
+.ps.ps-animate.ps-question:after
+{
+	transition: height 0.4s ease-in-out 0.5s;
+}
+
+.ps.hidden.ps-animate.ps-help:before,
+.ps.hidden.ps-animate.ps-question:before,
+.hidden .ps.ps-animate.ps-help:before,
+.hidden .ps.ps-animate.ps-question:before
+{
+	transition: transform 0.5s cubic-bezier(0, 1.4, 1, 1.4) 0.4s;
+}
+
+.ps.hidden.ps-animate.ps-help:after,
+.ps.hidden.ps-animate.ps-question:after,
+.hidden .ps.ps-animate.ps-help:after,
+.hidden .ps.ps-animate.ps-question:after
+{
+	transition: height 0.4s ease-in-out;
+}
