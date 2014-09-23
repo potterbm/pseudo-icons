@@ -144,6 +144,36 @@
 	transform: rotateZ(-90deg);
 }
 
+.ps.hidden.ps-add:before,
+.ps.hidden.ps-plus:before,
+.hidden .ps.ps-add:before,
+.hidden .ps.ps-plus:before
+{
+	height: 0;
+	transform: rotateZ(-180deg);
+}
+
+.ps.hidden.ps-add:after,
+.ps.hidden.ps-plus:after,
+.hidden .ps.ps-add:after,
+.hidden .ps.ps-plus:after
+{
+	height: 0;
+	transform: rotateZ(-360deg);
+}
+
+.ps.ps-animate.ps-add:before,
+.ps.ps-animate.ps-plus:before
+{
+	transition: transform 0.5s cubic-bezier(1, 1.75, 0.35, 0.75) 0.4s, height 0.3s ease-in-out;
+}
+
+.ps.ps-animate.ps-add:after,
+.ps.ps-animate.ps-plus:after
+{
+	transition: transform 0.4s cubic-bezier(1, 1.75, 0.35, 0.75) 0.4s, height 0.3s ease-in-out;
+}
+
 
 
 /* Accept/Check */
