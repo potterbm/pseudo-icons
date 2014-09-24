@@ -108,6 +108,7 @@
 .ps.ps-animate.ps-remove:before,
 .ps.ps-animate.ps-times:before
 {
+	-webkit-transition: -webkit-transform 0.5s cubic-bezier(1, 1.75, 0.35, 0.75) 0.4s, height 0.3s ease-in-out;
 	transition: transform 0.5s cubic-bezier(1, 1.75, 0.35, 0.75) 0.4s, height 0.3s ease-in-out;
 }
 
@@ -115,6 +116,7 @@
 .ps.ps-animate.ps-remove:after,
 .ps.ps-animate.ps-times:after
 {
+	-webkit-transition: -webkit-transform 0.4s cubic-bezier(1, 1.75, 0.35, 0.75) 0.4s, height 0.3s ease-in-out;
 	transition: transform 0.4s cubic-bezier(1, 1.75, 0.35, 0.75) 0.4s, height 0.3s ease-in-out;
 }
 
@@ -125,6 +127,7 @@
 .hidden .ps.ps-animate.ps-remove:before,
 .hidden .ps.ps-animate.ps-times:before
 {
+	-webkit-transition: -webkit-transform 0.5s cubic-bezier(1, 1.75, 0.35, 0.75), height 0.3s ease-in-out 0.4s;
 	transition: transform 0.5s cubic-bezier(1, 1.75, 0.35, 0.75), height 0.3s ease-in-out 0.4s;
 }
 
@@ -135,6 +138,7 @@
 .hidden .ps.ps-animate.ps-remove:after,
 .hidden .ps.ps-animate.ps-times:after
 {
+	-webkit-transition: -webkit-transform 0.4s cubic-bezier(1, 1.75, 0.35, 0.75), height 0.3s ease-in-out 0.4s;
 	transition: transform 0.4s cubic-bezier(1, 1.75, 0.35, 0.75), height 0.3s ease-in-out 0.4s;
 }
 
@@ -192,13 +196,17 @@
 .ps.ps-animate.ps-add:before,
 .ps.ps-animate.ps-plus:before
 {
-	transition: transform 0.5s cubic-bezier(1, 1.75, 0.35, 0.75) 0.4s, height 0.3s ease-in-out;
+	transition: transform 0.5s cubic-bezier(1, 1.75, 0.35, 0.75) 0.4s,
+				-webkit-transform 0.5s cubic-bezier(1, 1.75, 0.35, 0.75) 0.4s,
+				height 0.3s ease-in-out;
 }
 
 .ps.ps-animate.ps-add:after,
 .ps.ps-animate.ps-plus:after
 {
-	transition: transform 0.4s cubic-bezier(1, 1.75, 0.35, 0.75) 0.4s, height 0.3s ease-in-out;
+	transition: transform 0.4s cubic-bezier(1, 1.75, 0.35, 0.75) 0.4s,
+				-webit-transform 0.4s cubic-bezier(1, 1.75, 0.35, 0.75) 0.4s,
+				height 0.3s ease-in-out;
 }
 
 .ps.hidden.ps-animate.ps-add:before,
@@ -206,7 +214,9 @@
 .hidden .ps.ps-animate.ps-add:before,
 .hidden .ps.ps-animate.ps-plus:before
 {
-	transition: transform 0.5s cubic-bezier(1, 1.75, 0.35, 0.75), height 0.3s ease-in-out 0.4s;
+	transition: transform 0.5s cubic-bezier(1, 1.75, 0.35, 0.75),
+				-webkit-transform 0.5s cubic-bezier(1, 1.75, 0.35, 0.75),
+				height 0.3s ease-in-out 0.4s;
 }
 
 .ps.hidden.ps-animate.ps-add:after,
@@ -214,7 +224,9 @@
 .hidden .ps.ps-animate.ps-add:after,
 .hidden .ps.ps-animate.ps-plus:after
 {
-	transition: transform 0.4s cubic-bezier(1, 1.75, 0.35, 0.75), height 0.3s ease-in-out 0.4s;
+	transition: transform 0.4s cubic-bezier(1, 1.75, 0.35, 0.75),
+				-webkit-transform 0.4s cubic-bezier(1, 1.75, 0.35, 0.75),
+				height 0.3s ease-in-out 0.4s;
 }
 
 
