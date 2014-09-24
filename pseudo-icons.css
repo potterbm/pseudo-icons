@@ -196,17 +196,15 @@
 .ps.ps-animate.ps-add:before,
 .ps.ps-animate.ps-plus:before
 {
-	transition: transform 0.5s cubic-bezier(1, 1.75, 0.35, 0.75) 0.4s,
-				-webkit-transform 0.5s cubic-bezier(1, 1.75, 0.35, 0.75) 0.4s,
-				height 0.3s ease-in-out;
+	-webkit-transition: -webkit-transform 0.5s cubic-bezier(1, 1.75, 0.35, 0.75) 0.4s, height 0.3s ease-in-out;
+	transition: transform 0.5s cubic-bezier(1, 1.75, 0.35, 0.75) 0.4s, height 0.3s ease-in-out;
 }
 
 .ps.ps-animate.ps-add:after,
 .ps.ps-animate.ps-plus:after
 {
-	transition: transform 0.4s cubic-bezier(1, 1.75, 0.35, 0.75) 0.4s,
-				-webit-transform 0.4s cubic-bezier(1, 1.75, 0.35, 0.75) 0.4s,
-				height 0.3s ease-in-out;
+	-webkit-transition: -webkit-transform 0.4s cubic-bezier(1, 1.75, 0.35, 0.75) 0.4s, height 0.3s ease-in-out;
+	transition: transform 0.4s cubic-bezier(1, 1.75, 0.35, 0.75) 0.4s, height 0.3s ease-in-out;
 }
 
 .ps.hidden.ps-animate.ps-add:before,
@@ -214,9 +212,8 @@
 .hidden .ps.ps-animate.ps-add:before,
 .hidden .ps.ps-animate.ps-plus:before
 {
-	transition: transform 0.5s cubic-bezier(1, 1.75, 0.35, 0.75),
-				-webkit-transform 0.5s cubic-bezier(1, 1.75, 0.35, 0.75),
-				height 0.3s ease-in-out 0.4s;
+	-webkit-transition: -webkit-transform 0.5s cubic-bezier(1, 1.75, 0.35, 0.75), height 0.3s ease-in-out 0.4s;
+	transition: transform 0.5s cubic-bezier(1, 1.75, 0.35, 0.75), height 0.3s ease-in-out 0.4s;
 }
 
 .ps.hidden.ps-animate.ps-add:after,
@@ -224,9 +221,8 @@
 .hidden .ps.ps-animate.ps-add:after,
 .hidden .ps.ps-animate.ps-plus:after
 {
-	transition: transform 0.4s cubic-bezier(1, 1.75, 0.35, 0.75),
-				-webkit-transform 0.4s cubic-bezier(1, 1.75, 0.35, 0.75),
-				height 0.3s ease-in-out 0.4s;
+	-webkit-transition: -webkit-transform 0.4s cubic-bezier(1, 1.75, 0.35, 0.75), height 0.3s ease-in-out 0.4s;
+	transition: transform 0.4s cubic-bezier(1, 1.75, 0.35, 0.75), height 0.3s ease-in-out 0.4s;
 }
 
 
@@ -312,22 +308,26 @@
 }
 
 .ps.ps-animate.ps-home:before {
+	-webkit-transition: opacity 0.05s ease-in-out, width 0.3s ease-in, height 0.3s ease-out 0.3s;
 	transition: opacity 0.05s ease-in-out, width 0.3s ease-in, height 0.3s ease-out 0.3s;
 }
 
 .ps.ps-animate.ps-home:after {
+	-webkit-transition: border-width 0.2s ease-in-out 0.6s, height 0.5s cubic-bezier(1, 1.75, 0.05, 0.6) 0.6s;
 	transition: border-width 0.2s ease-in-out 0.6s, height 0.5s cubic-bezier(1, 1.75, 0.05, 0.6) 0.6s;
 }
 
 .ps.hidden.ps-animate.ps-home:before,
 .hidden .ps.ps-animate.ps-home:before
 {
+	-webkit-transition: opacity 0.05s ease-in-out 1.2s, width 0.3s ease-out 0.9s, height 0.3s ease-in 0.6s;
 	transition: opacity 0.05s ease-in-out 1.2s, width 0.3s ease-out 0.9s, height 0.3s ease-in 0.6s;
 }
 
 .ps.hidden.ps-animate.ps-home:after,
 .hidden .ps.ps-animate.ps-home:after
 {
+	-webkit-transition: border-width 0.2s ease-in-out 0.4s, height 0.5s cubic-bezier(1, 1.75, 0.05, 0.6);
 	transition: border-width 0.2s ease-in-out 0.4s, height 0.5s cubic-bezier(1, 1.75, 0.05, 0.6);
 }
 
@@ -397,6 +397,7 @@
 .ps.ps-animate.ps-cog:before,
 .ps.ps-animate.ps-settings:before
 {
+	-webkit-transition: -webkit-transform 0.5s cubic-bezier(0, 1.4, 1, 1.4);
 	transition: transform 0.5s cubic-bezier(0, 1.4, 1, 1.4);
 }
 
@@ -404,6 +405,7 @@
 .ps.ps-animate.ps-cog:after,
 .ps.ps-animate.ps-settings:after
 {
+	-webkit-transition: border-width 1s ease-in-out 0.4s, -webkit-transform 0.5s cubic-bezier(0.75, 0, 0.95, 0.75) 0.8s;
 	transition: border-width 1s ease-in-out 0.4s, transform 0.5s cubic-bezier(0.75, 0, 0.95, 0.75) 0.8s;
 }
 
@@ -414,6 +416,7 @@
 .hidden .ps.ps-animate.ps-cog:before,
 .hidden .ps.ps-animate.ps-settings:before
 {
+	-webkit-transition: -webkit-transform 0.5s cubic-bezier(0, 1.4, 1, 1.4) 0.9s;
 	transition: transform 0.5s cubic-bezier(0, 1.4, 1, 1.4) 0.9s;
 }
 
@@ -424,6 +427,7 @@
 .hidden .ps.ps-animate.ps-cog:after,
 .hidden .ps.ps-animate.ps-settings:after
 {
+	-webkit-transition: border-width 1s ease-in-out 0.4s, -webkit-transform 0.5s cubic-bezier(0.75, 0, 0.95, 0.75);
 	transition: border-width 1s ease-in-out 0.4s, transform 0.5s cubic-bezier(0.75, 0, 0.95, 0.75);
 }
 
@@ -475,22 +479,26 @@
 }
 
 .ps.ps-animate.ps-search:before {
+	-webkit-transition: -webkit-transform 0.5s cubic-bezier(0, 1.4, 1, 1.4);
 	transition: transform 0.5s cubic-bezier(0, 1.4, 1, 1.4);
 }
 
 .ps.ps-animate.ps-search:after {
+	-webkit-transition: width 0.4s ease-in-out 0.5s;
 	transition: width 0.4s ease-in-out 0.5s;
 }
 
 .ps.hidden.ps-search:before,
 .hidden .ps.ps-search:before
 {
+	-webkit-transition: -webkit-transform 0.5s cubic-bezier(0, 1.4, 1, 1.4) 0.4s;
 	transition: transform 0.5s cubic-bezier(0, 1.4, 1, 1.4) 0.4s;
 }
 
 .ps.hidden.ps-search:after,
 .hidden .ps.ps-search:after
 {
+	-webkit-transition: width 0.4s ease-in-out;
 	transition: width 0.4s ease-in-out;
 }
 
@@ -824,6 +832,7 @@
 .ps.ps-animate.ps-circle-outline:before,
 .ps.ps-animate.ps-circle-empty:before
 {
+	-webkit-transition: -webkit-transform 0.5s cubic-bezier(0, 1.4, 1, 1.4);
 	transition: transform 0.5s cubic-bezier(0, 1.4, 1, 1.4);
 }
 
@@ -874,6 +883,7 @@
 .ps.ps-animate.ps-bullet-outline:before,
 .ps.ps-animate.ps-bullet-empty:before
 {
+	-webkit-transition: -webkit-transform 0.5s cubic-bezier(0, 1.4, 1, 1.4);
 	transition: transform 0.5s cubic-bezier(0, 1.4, 1, 1.4);
 }
 
@@ -927,22 +937,26 @@
 }
 
 .ps.ps-animate.ps-male:before {
+	-webkit-transition: -webkit-transform 0.5s cubic-bezier(0, 1.4, 1, 1.4);
 	transition: transform 0.5s cubic-bezier(0, 1.4, 1, 1.4);
 }
 
 .ps.ps-animate.ps-male:after {
+	-webkit-transition: width 0.4s ease-in-out 0.5s;
 	transition: width 0.4s ease-in-out 0.5s;
 }
 
 .ps.hidden.ps-animate.ps-male:before,
 .hidden .ps.ps-animate.ps-male:before
 {
+	-webkit-transition: -webkit-transform 0.5s cubic-bezier(0, 1.4, 1, 1.4) 0.4s;
 	transition: transform 0.5s cubic-bezier(0, 1.4, 1, 1.4) 0.4s;
 }
 
 .ps.hidden.ps-animate.ps-male:after,
 .hidden .ps.ps-animate.ps-male:after
 {
+	-webkit-transition: width 0.4s ease-in-out;
 	transition: width 0.4s ease-in-out;
 }
 
@@ -991,22 +1005,26 @@
 }
 
 .ps.ps-animate.ps-female:before {
+	-webkit-transition: -webkit-transform 0.5s cubic-bezier(0, 1.4, 1, 1.4);
 	transition: transform 0.5s cubic-bezier(0, 1.4, 1, 1.4);
 }
 
 .ps.ps-animate.ps-female:after {
+	-webkit-transition: height 0.4s ease-in-out 0.5s;
 	transition: height 0.4s ease-in-out 0.5s;
 }
 
 .ps.hidden.ps-animate.ps-female:before,
 .hidden .ps.ps-animate.ps-female:before
 {
+	-webkit-transition: -webkit-transform 0.5s cubic-bezier(0, 1.4, 1, 1.4) 0.4s;
 	transition: transform 0.5s cubic-bezier(0, 1.4, 1, 1.4) 0.4s;
 }
 
 .ps.hidden.ps-animate.ps-female:after,
 .hidden .ps.ps-animate.ps-female:after
 {
+	-webkit-transition: height 0.4s ease-in-out;
 	transition: height 0.4s ease-in-out;
 }
 
@@ -1069,12 +1087,14 @@
 .ps.ps-animate.ps-help:before,
 .ps.ps-animate.ps-question:before
 {
+	-webkit-transition: -webkit-transform 0.5s cubic-bezier(0, 1.4, 1, 1.4);
 	transition: transform 0.5s cubic-bezier(0, 1.4, 1, 1.4);
 }
 
 .ps.ps-animate.ps-help:after,
 .ps.ps-animate.ps-question:after
 {
+	-webkit-transition: height 0.4s ease-in-out 0.5s;
 	transition: height 0.4s ease-in-out 0.5s;
 }
 
@@ -1083,6 +1103,7 @@
 .hidden .ps.ps-animate.ps-help:before,
 .hidden .ps.ps-animate.ps-question:before
 {
+	-webkit-transition: -webkit-transform 0.5s cubic-bezier(0, 1.4, 1, 1.4) 0.4s;
 	transition: transform 0.5s cubic-bezier(0, 1.4, 1, 1.4) 0.4s;
 }
 
@@ -1091,5 +1112,6 @@
 .hidden .ps.ps-animate.ps-help:after,
 .hidden .ps.ps-animate.ps-question:after
 {
+	-webkit-transition: height 0.4s ease-in-out;
 	transition: height 0.4s ease-in-out;
 }
