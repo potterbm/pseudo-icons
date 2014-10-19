@@ -1336,6 +1336,8 @@
 .ps.ps-tiny.ps-question:after
 {
 	width: 4%;
+	
+	top: 51%;
 	left: 48%;
 }
 
