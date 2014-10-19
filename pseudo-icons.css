@@ -386,7 +386,7 @@
 	background-color: transparent !important;
 	
 	border-width: .02em;
-	border-top-width: 0;
+	border-top-color: transparent !important;
 	border-style: solid;
 	border-radius: .5em;
 	
