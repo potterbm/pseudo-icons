@@ -65,6 +65,14 @@
 	transform: rotateZ(-135deg);
 }
 
+.ps.ps-tiny.ps-close:before,
+.ps.ps-tiny.ps-remove:before,
+.ps.ps-tiny.ps-times:before
+{
+	height: 4%;
+	top: 48%;
+}
+
 .ps.ps-close:after,
 .ps.ps-remove:after,
 .ps.ps-times:after
@@ -79,6 +87,14 @@
 	
 	-webkit-transform: rotateZ(-45deg);
 	transform: rotateZ(-45deg);
+}
+
+.ps.ps-tiny.ps-close:after,
+.ps.ps-tiny.ps-remove:after,
+.ps.ps-tiny.ps-times:after
+{
+	height: 4%;
+	top: 48%;
 }
 
 .ps.hidden.ps-close:before,
@@ -159,6 +175,13 @@
 	left: 25%;
 }
 
+.ps.ps-tiny.ps-add:before,
+.ps.ps-tiny.ps-plus:before
+{
+	height: 4%;
+	top: 48%;
+}
+
 .ps.ps-add:after,
 .ps.ps-plus:after
 {
@@ -172,6 +195,13 @@
 	
 	-webkit-transform: rotateZ(-90deg);
 	transform: rotateZ(-90deg);
+}
+
+.ps.ps-tiny.ps-add:after,
+.ps.ps-tiny.ps-plus:after
+{
+	height: 4%;
+	top: 48%;
 }
 
 .ps.hidden.ps-add:before,
@@ -253,6 +283,13 @@
 	transform: rotateZ(-45deg);
 }
 
+.ps.ps-tiny.ps-accept:before,
+.ps.ps-tiny.ps-check:before
+{
+	border-bottom-width: .04em;
+	border-left-width: .04em;
+}
+
 
 
 /* Save */
@@ -320,6 +357,11 @@
 	transform: rotateZ(-45deg);
 }
 
+.ps.ps-tiny.ps-home:before {
+	border-top-width: .04em;
+	border-right-width: .04em;
+}
+
 .ps.ps-home:after {
 	background-color: transparent !important;
 	border-style: solid;
@@ -333,6 +375,11 @@
 	
 	top: 45%;
 	left: 30%;
+}
+
+.ps.ps-tiny.ps-home:after {
+	border-width: .04em;
+	border-top-width: 0em;
 }
 
 .ps.hidden.ps-home:before,
