@@ -19,6 +19,7 @@
 	padding: 0;
 	height: 1em;
 	width: 1em;
+	vertical-align: middle;
 	
 	position: relative;
 }
