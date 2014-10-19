@@ -262,7 +262,7 @@
 	
 	border-top-width: .1em;
 	border-right-width: .2em;
-	border-bottom-width: .35em;
+	border-bottom-width: .05em;
 	border-left-width: .1em;
 	border-style: solid;
 	border-top-right-radius: .2em;
@@ -275,6 +275,22 @@
 	width: 30%;
 	
 	top: 20%;
+	left: 20%;
+}
+
+.ps.ps-save:after {
+	background-color: transparent !important;
+	
+	border-width: .1em;
+	border-top-width: 0;
+	border-style: solid;
+	
+	content: "";
+	
+	height: .2em;
+	width: .4em;
+	
+	top: 50%;
 	left: 20%;
 }
 
