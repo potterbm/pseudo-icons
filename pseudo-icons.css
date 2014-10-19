@@ -656,12 +656,11 @@
 /* Share */
 
 .ps.ps-share:before {
-	border-top-left-radius: 0.5em;
-	border-top-right-radius: 0.5em;
+	border-radius: 0.5em;
 	
 	content: "";
 	
-	height: 20%;
+	height: 40%;
 	width: 40%;
 	
 	top: 20%;
