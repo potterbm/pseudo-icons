@@ -262,7 +262,7 @@
 	
 	border-top-width: .1em;
 	border-right-width: .2em;
-	border-bottom-width: .05em;
+	border-bottom-width: .1em;
 	border-left-width: .1em;
 	border-style: solid;
 	border-top-right-radius: .2em;
@@ -287,10 +287,12 @@
 	
 	content: "";
 	
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
 	height: .2em;
 	width: .4em;
 	
-	top: 50%;
+	top: 55%;
 	left: 20%;
 }
 
