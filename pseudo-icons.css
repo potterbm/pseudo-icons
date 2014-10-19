@@ -446,6 +446,14 @@
 	left: 30%;
 }
 
+.ps.ps-tiny.ps-spinner:before,
+.ps.ps-tiny.ps-spinner:after,
+.ps.ps-tiny.ps-loading:before,
+.ps.ps-tiny.ps-loading:after
+{
+	border-width: .04em;
+}
+
 .ps.ps-spinner:before,
 .ps.ps-loading:before
 {
@@ -582,6 +590,10 @@
 	left: 15%;
 }
 
+.ps.ps-tiny.ps-search:before {
+	border-width: .04em;
+}
+
 .ps.ps-search:after {
 	content: "";
 	
@@ -595,6 +607,10 @@
 	transform-origin: 0 0;
 	-webkit-transform: rotateZ(45deg);
 	transform: rotateZ(45deg);
+}
+
+.ps.ps-tiny.ps-search:after {
+	height: 4%;
 }
 
 .ps.hidden.ps-search:before,
@@ -687,6 +703,12 @@
 	left: 37.5%;
 }
 
+.ps.ps-tiny.ps-user-outline:before,
+.ps.ps-tiny.ps-person-outline:before
+{
+	border-width: .04em;
+}
+
 .ps.ps-user-outline:after,
 .ps.ps-person-outline:after
 {
@@ -705,6 +727,12 @@
 	left: 25%;
 }
 
+.ps.ps-tiny.ps-user-outline:after,
+.ps.ps-tiny.ps-person-outline:after
+{
+	border-width: .04em;
+}
+
 
 
 
@@ -718,6 +746,11 @@
 	
 	top: 49%;
 	left: 20%;
+}
+
+.ps.ps-tiny.ps-arrow-left:before {
+	height: 4%;
+	top: 48%;
 }
 
 .ps.ps-arrow-left:after {
@@ -741,6 +774,13 @@
 	transform: rotateZ(-45deg);
 }
 
+.ps.ps-tiny.ps-arrow-left:after {
+	border-left-width: .04em;
+	border-top-width: .04em;
+	
+	left: 18%;
+}
+
 
 
 /* Arrow top */
@@ -755,6 +795,13 @@
 	
 	top: 20%;
 	left: 49%;
+}
+
+.ps.ps-tiny.ps-arrow-top:before,
+.ps.ps-tiny.ps-arrow-up:before
+{
+	width: 4%;
+	left: 48%;
 }
 
 .ps.ps-arrow-top:after,
@@ -780,6 +827,15 @@
 	transform: rotateZ(45deg);
 }
 
+.ps.ps-tiny.ps-arrow-top:after,
+.ps.ps-tiny.ps-arrow-up:after
+{
+	border-left-width: .04em;
+	border-top-width: .04em;
+	
+	top: 18%;
+}
+
 
 
 /* Arrow right */
@@ -792,6 +848,12 @@
 	
 	top: 49%;
 	left: 20%;
+}
+
+.ps.ps-tiny.ps-arrow-right:before {
+	height: 4%;
+	
+	top: 48%;
 }
 
 .ps.ps-arrow-right:after {
@@ -815,6 +877,13 @@
 	transform: rotateZ(45deg);
 }
 
+.ps.ps-tiny.ps-arrow-right:after {
+	border-right-width: .04em;
+	border-top-width: .04em;
+	
+	left: 62%
+}
+
 
 
 
@@ -829,6 +898,14 @@
 	width: 2%;
 	
 	top: 20%;
+	left: 49%;
+}
+
+.ps.ps-tiny.ps-arrow-bottom:before,
+.ps.ps-tiny.ps-arrow-down:before
+{
+	width: 4%;
+	
 	left: 49%;
 }
 
@@ -853,6 +930,15 @@
 	transform-origin: 0 100%;
 	-webkit-transform: rotateZ(-45deg);
 	transform: rotateZ(-45deg);
+}
+
+.ps.ps-tiny.ps-arrow-bottom:after,
+.ps.ps-tiny.ps-arrow-down:after
+{
+	border-left-width: .04em;
+	border-bottom-width: .04em;
+	
+	top: 62%;
 }
 
 
@@ -889,6 +975,12 @@
 	left: 30%;
 }
 
+.ps.ps-tiny.ps-page:before,
+.ps.ps-tiny.ps-page:after
+{
+	border-width: .04em;
+}
+
 
 
 
@@ -915,6 +1007,12 @@
 .ps.ps-square-empty:before
 {
 	background-color: transparent !important;
+}
+
+.ps.ps-tiny.ps-square-outline:before,
+.ps.ps-tiny.ps-square-empty:before
+{
+	border-width: .04em;
 }
 
 
@@ -944,6 +1042,12 @@
 .ps.ps-circle-empty:before
 {
 	background-color: transparent !important;
+}
+
+.ps.ps-tiny.ps-circle-outline:before,
+.ps.ps-tiny.ps-circle-empty:before
+{
+	border-width: .04em;
 }
 
 .ps.hidden.ps-circle:before,
@@ -997,6 +1101,12 @@
 	background-color: transparent !important;
 }
 
+.ps.ps-tiny.ps-bullet-outline:before,
+.ps.ps-tiny.ps-bullet-empty:before
+{
+	border-width: .04em;
+}
+
 .ps.hidden.ps-bullet:before,
 .ps.hidden.ps-bullet-full:before,
 .ps.hidden.ps-bullet-outline:before,
@@ -1039,6 +1149,10 @@
 	left: 30%;
 }
 
+.ps.ps-tiny.ps-male:before {
+	border-width: .04em;
+}
+
 .ps.ps-male:after {
 	content: "";
 	
@@ -1053,6 +1167,10 @@
 	transform-origin: 0 0;
 	-webkit-transform: rotateZ(-45deg);
 	transform: rotateZ(-45deg);
+}
+
+.ps.ps-tiny.ps-male:after {
+	height: 4%;
 }
 
 .ps.hidden.ps-male:before,
@@ -1112,6 +1230,10 @@
 	left: 30%;
 }
 
+.ps.ps-tiny.ps-female:before {
+	border-width: .04em;
+}
+
 .ps.ps-female:after {
 	content: "";
 	
@@ -1120,6 +1242,12 @@
 	width: 2%;
 	
 	top: 70%;
+	left: 49%;
+}
+
+.ps.ps-tiny.ps-female:after {
+	width: 4%;
+	
 	left: 49%;
 }
 
@@ -1186,10 +1314,15 @@
 	transform: rotateZ(-45deg);
 }
 
+.ps.ps-tiny.ps-help:before,
+.ps.ps-tiny.ps-question:before
+{
+	border-width: .04em;
+}
+
 .ps.ps-help:after,
 .ps.ps-question:after
 {
-	
 	content: "";
 	
 	width: 2%;
@@ -1197,6 +1330,13 @@
 	
 	top: 53%;
 	left: 49%;
+}
+
+.ps.ps-tiny.ps-help:after,
+.ps.ps-tiny.ps-question:after
+{
+	width: 4%;
+	left: 48%;
 }
 
 .ps.hidden.ps-help:before,
