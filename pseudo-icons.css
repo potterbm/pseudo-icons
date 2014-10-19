@@ -392,29 +392,29 @@
 	
 	content: "";
 	
-	height: 50%;
-	width: 50%;
+	height: 40%;
+	width: 0%;
 	
-	top: 25%;
-	left: 25%;
+	top: 40%;
+	left: 40%;
 }
 
 .ps.ps-spinner:before,
 .ps.ps-loading:before
 {
-	-webkit-transform: rotateZ(-45deg);
-	-ms-transform: rotateZ(-45deg);
-	-o-transform: rotateZ(-45deg);
-	transform: rotateZ(-45deg);
+	-webkit-transform: rotateZ(-30deg);
+	-ms-transform: rotateZ(-30deg);
+	-o-transform: rotateZ(-30deg);
+	transform: rotateZ(-30deg);
 }
 
 .ps.ps-spinner:after,
 .ps.ps-loading:after
 {
-	-webkit-transform: rotateZ(45deg);
-	-ms-transform: rotateZ(45deg);
-	-o-transform: rotateZ(45deg);
-	transform: rotateZ(45deg);
+	-webkit-transform: rotateZ(30deg);
+	-ms-transform: rotateZ(30deg);
+	-o-transform: rotateZ(30deg);
+	transform: rotateZ(30deg);
 }
 
 
