@@ -682,7 +682,7 @@
 
 .ps.hidden.ps-share:before,
 .hidden .ps.ps-share:before,
-.ps.hidden.ps-share:after
+.ps.hidden.ps-share:after,
 .hidden .ps.ps-share:after
 {
 	-webkit-transform: scale(0);
