@@ -72,7 +72,7 @@ ul {
 
 li {
 	display: inline-block;
-	margin: .0625em;
+	margin: .125em .0625em;
 }
 
 .icon-title {
