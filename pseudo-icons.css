@@ -377,6 +377,47 @@
 
 
 
+/* Loading Spinner */
+.ps.ps-spinner:before,
+.ps.ps-spinner:after,
+.ps.ps-loading:before,
+.ps.ps-loading:after
+{
+	background-color: transparent !important;
+	
+	border-width: .2em;
+	border-top-width: 0;
+	border-style: solid;
+	border-radius: .5em;
+	
+	content: "";
+	
+	height: 50%;
+	width: 50%;
+	
+	top: 25%;
+	left: 25%;
+}
+
+.ps.ps-spinner:before,
+.ps.ps-loading:before
+{
+	-webkit-transform: rotateZ(-45deg);
+	-ms-transform: rotateZ(-45deg);
+	-o-transform: rotateZ(-45deg);
+	transform: rotateZ(-45deg);
+}
+
+.ps.ps-spinner:after,
+.ps.ps-loading:after
+{
+	-webkit-transform: rotateZ(45deg);
+	-ms-transform: rotateZ(45deg);
+	-o-transform: rotateZ(45deg);
+	transform: rotateZ(45deg);
+}
+
+
 
 /* Gear */
 
