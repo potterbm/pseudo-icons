@@ -653,6 +653,41 @@
 
 
 
+/* Lock */
+
+.ps.ps-lock:before {
+	border-style: solid;
+	border-width: .04em;
+	border-bottom-width: 0;
+	border-top-left-radius: .2em;
+	border-top-right-radius: .2em;
+	
+	content: "";
+	
+	height: 40%;
+	width: 40%;
+	
+	top: 10%;
+	left: 30%;
+}
+
+.ps.ps-lock:after {
+	border-style: solid;
+	border-width: .1em;
+	border-left-width: .2em;
+	border-right-width: .2em;
+	
+	content: "";
+	
+	height: 40%;
+	width: 60%;
+	
+	top: 50%;
+	left: 20%;
+}
+
+
+
 /* Share */
 
 .ps.ps-share:before {
