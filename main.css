@@ -75,25 +75,18 @@ li {
 	line-height: 1;
 	
 	display: inline-block;
-	margin: 1em;
-	padding-top: 1em;
-	
-	position: relative;
+	margin: .25em;
+	width: 3em;
 }
 
 .icon-title {
 	font-family: 'Raleway', sans-serif;
-	font-size: 0.5em;
+	font-size: 0.25em;
 	font-weight: 200;
 	text-align: center;
 	text-transform: uppercase;
 	
 	display: block;
-	margin: 0;
+	margin: 1em 0;
 	padding: 0;
-	width: 150%;
-	
-	position: absolute;
-	top: 0;
-	left: -25%;
 }
